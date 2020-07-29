@@ -1,4 +1,4 @@
-# 2020-07-29-git-boggy
+# 2020-07-29-git-boggy Git basics class
 
 ## The basics
 ## added more stuff

@@ -1,0 +1,134 @@
+1    21  cd Desktop/ 
+2    22  mkdir 2020-07-29-git-dan 
+3    23  cd 2020-07-29-git-dan/ 
+4    24  pwd 
+5    25  explorer . 
+6    26  # open . 
+7    27  # xdg-open . 
+8    28  ls -a 
+9    29  dir 
+10    30  git init 
+11    31  git config --global user.name "Daniel Chen" 
+12    32  git config --global user.email "chendaniely@gmail.com" 
+13    33  git config --list 
+14    34  ' 
+15    35  pwd 
+16    36  ls -a 
+17    37  explorer . 
+18    38  # dir 
+19    39  git status 
+20    40* 
+21    41  nano README.md 
+22    42  git status 
+23    43  git add README.md 
+24    44  git status 
+25    45  git commit 
+26    46  git status 
+27    47  history 
+28    48  git log 
+29    49  # edit the README file, and write notes about add, commit, and status 
+30    50  vim README.md 
+31    51  nano README.md 
+32    52  git status 
+33    53  git commit -m "talk about status, add, commit" 
+34    54  git add README.md 
+35    55  git commit -m "talk about status, add, commit" 
+36    56  git status 
+37    57  cat README.md 
+38    58  nano README.md 
+39    59  git status 
+40    60  git diff README.md 
+41    61  git diff 
+42    62  git diff README.md 
+43    63  git add README.md 
+44    64  git status 
+45    65  # "(use "git reset HEAD <file>..." to unstage)" 
+46    66  git status 
+47    67  git diff 
+48    68  git diff --staged 
+49    69  git commit -m "add title" 
+50    70  git log 
+51    71  git log 
+52    72  git log --oneline 
+53    73  git diff HEAD~2 
+54    74  git diff 
+55    75  git log --oneline 
+56    76  history 
+57    77  git log --oneline 
+58    78  git diff 205fc09 
+59    79  nano README.md 
+60    80  cat README.md 
+61    81  git status 
+62    82  git add README.md 
+63    83  git status 
+64    84  git restore --staged README.md 
+65    85  git status 
+66    86  git add README.md 
+67    87  git commit -m "talked about log, diff, and head" 
+68    88  git log --oneline 
+69    89  cat README.md 
+70    90  cat README.md 
+71    91  git log --oneline 
+72    92  git diff 205fc09 README.md 
+73    93  git checkout HEAD~3 README.md 
+74    94  git status 
+75    95  cat README.md 
+76    96  git restore --staged README.md 
+77    97  git status 
+78    98  git restore README.md 
+79    99  cat README.md 
+80   100  git log --oneline 
+81   101  git checkout 205fc09 
+82   102  git status 
+83   103  cat README.md 
+84   104  history 
+85   105  git checkout master 
+86   106  cat README.md 
+87   107  git log --oneline 
+88   108  git checkout 205fc09 
+89   109  git log 
+90   110  git log --oneline --all 
+91   111  git checkout master 
+92   112  history 
+93   113  git remote add origin git@github.com:chendaniely/2020-07-29-git-dan.git 
+94   114  git remote -v 
+95   115  git push origin master 
+96   116  explorer . 
+97   117  # ssh-keygen 
+98   118  git status 
+99   119  nano analysis/README.md 
+100   120  git remote -v 
+101   121  # git remote rm origin 
+102   122  # git remote add origin https://github.com/chendaniely/2020-07-29-git-dan.git 
+103   123  git status 
+104   124  nano data/.gitkeep 
+105   125  git status 
+106   126  nano .gitignore 
+107   127  git status 
+108   128  cat .gitignore 
+109   129  git status 
+110   130  git add -f data/.gitkeep 
+111   131  git status 
+112   132  git add . 
+113   133  git status 
+114   134  git commit -m "ignore file and folders" 
+115   135  git push origin master 
+116   136  cat README.md 
+117   137  git pull origin master 
+118   138  cat README.md 
+119   139  nano README.md 
+120   140  git status 
+121   141  git add README.md 
+122   142  git commit -m "change title on local computer" 
+123   143  git push origin master 
+124   144  git pull origin master 
+125   145  # git push origin master 
+126   146  nano README.md 
+127   147  git status 
+128   148  git add README.md 
+129   149  git status 
+130   150  git commit -m "fix conflicts" 
+131   151  git push origin master 
+132   152  history 
+133 
+ 

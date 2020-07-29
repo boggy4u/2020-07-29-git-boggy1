@@ -12,4 +12,4 @@
 	- 'git log --oneline': one line version of the log
 - 'git diff': diff files 
 	- 'git diff --staged': diff files in staging area
-
+- 'git remote add': remote github
